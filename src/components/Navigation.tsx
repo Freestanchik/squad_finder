@@ -7,10 +7,10 @@ const Navigation: FC = () => {
             <nav>
                 <ul className="flex">
                     <li>
-                        <Link href="/" className="hover:text-red-600 p-5">Game sessions</Link>
+                        <Link href="/" className="hover:text-red-600 p-1 lg:p-5">Game sessions</Link>
                     </li>
                     <li>
-                        <Link href="/gamesInfo" className="hover:text-red-600 p-5">games</Link>
+                        <Link href="/gamesInfo" className="hover:text-red-600 p-1 lg:p-5">games</Link>
                     </li>
                 </ul>
             </nav>
