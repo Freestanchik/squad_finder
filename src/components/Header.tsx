@@ -9,7 +9,7 @@ const Header: FC = () => {
             <div className="h-16 lg:max-w-7xl mx-auto flex justify-between items-center px-2">
                 <Link href="/" className="text-xl lg:text-4xl font-bold">SQUAD FINDER</Link>
                 <Navigation></Navigation>
-                <FaRegUser className="text-4xl"/>
+                <FaRegUser className="text-4xl hidden lg:block"/>
             </div>
         </header>
     )
